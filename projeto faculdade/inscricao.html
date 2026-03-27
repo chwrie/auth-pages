@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Se inscreva</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="../javascript/validacao.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Se inscreva</h1>
+            <p id="error-message"></p>
+            <form id="form">
+                <div>
+                    <label for="nome-input">
+                        <img src="assets/images/icons/person.svg">
+                    </label>
+                    <input type="text" name="nome" id="nome-input" placeholder="Nome">
+                </div>
+                <div>
+                    <label for="email-input">
+                        <img src="assets/images/icons/email.svg">
+                    </label>
+                    <input type="email" name="email" id="email-input" placeholder="Email">
+                </div>
+                <div> <label for="senha-input">
+                        <img src="assets/images/icons/lock.svg">
+                    </label>
+                    <input type="password" name="senha" id="senha-input" placeholder="Senha">
+                </div>
+                <div>
+                    <label for="repita-senha-input">
+                        <img src="assets/images/icons/lock.svg">
+                    </label>
+                    <input type="password" name="repita-senha" id="repita-senha-input" placeholder="Repita a senha">
+                </div>
+              
+                <button type="submit">Se inscreva</button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html">Login</a></p>
+        </div>
+    </body>
+</html>
